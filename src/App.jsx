@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar';
 import Data from './Data';
 import Card from './components/Card';
+import Footer from './components/Footer';
 
 function App() {
   const dataItems = Data.map((item) => {
@@ -9,12 +10,12 @@ function App() {
   })
 
   return (
-    <div className="App">
+    <div className="App flex flex-col">
       <Navbar />
-      <div className="container md:m-10 md:w-fit">
+      <div className="container m-auto py-5">
         {dataItems}
       </div>
-
+      <Footer />
     </div>
   )
 }

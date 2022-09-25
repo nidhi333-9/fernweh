@@ -36,7 +36,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/cp3SXvaBvnGqW41bA",
         startDate: "12 Jan, 2021",
         endDate: "24 Jan, 2021",
-        description: "More than 7,000 feet above sea level in the Andes Mountains, Machu Picchu is the most visited tourist destination in Peru.",
+        description: "More than 7,000 feet above sea level in the Andes Mountains, Machu Picchu is the most visited tourist destination in Peru. A symbol of the Incan Empire and built around 1450AD, Machu Picchu was designated a UNESCO World Heritage Site in 1983.",
         imageUrl: "https://www.edreams.com/blog/wp-content/uploads/sites/3/2013/07/shutterstock_168497345.jpg.webp"
     },
     {
@@ -46,7 +46,7 @@ export default [
         googleMapsUrl: "https://goo.gl/maps/K7gSiKnYbnFiy91e9",
         startDate: "12 Jan, 2021",
         endDate: "24 Jan, 2021",
-        description: "The so-called Great Temple at Petra is a grand monumental complex that lies south of the Colonnaded Street at Petra. It covers an area of ~7,560 m2. ",
+        description: "The so-called Great Temple at Petra is a grand monumental complex that lies south of the Colonnaded Street at Petra. This wonder of the world is the most valuable treasure in Jordan, and also its main tourist attraction in the country.",
         imageUrl: "https://www.edreams.com/blog/wp-content/uploads/sites/3/2013/07/shutterstock_1406860232.jpg.webp"
     },
     {

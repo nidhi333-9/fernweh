@@ -2,7 +2,7 @@ import { ImLocation } from "react-icons/im"
 function Card(props) {
     return (
         <>
-            <div className="card  w-fit border p-10  sm:flex">
+            <div className="card  w-fit border p-10  md:flex">
                 <img className="image" src={props.img} width="300px" alt="" />
                 <div className="content text-center pt-5 md:text-left md:px-10">
                     <div className="location flex justify-center md:justify-start">
