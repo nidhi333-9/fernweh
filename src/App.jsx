@@ -4,9 +4,18 @@ import Data from './Data';
 import Card from './components/Card';
 import Footer from './components/Footer';
 
+
 function App() {
   const dataItems = Data.map((item) => {
-    return <Card title={item.title} desc={item.description} location={item.location} startD={item.startDate} endD={item.endDate} googleMap={item.googleMapsUrl} img={item.imageUrl} />
+    return <Card
+      key={item.id}
+      title={item.title}
+      desc={item.description}
+      location={item.location}
+      startD={item.startDate}
+      endD={item.endDate}
+      googleMap={item.googleMapsUrl}
+      img={item.imageUrl} />
   })
 
   return (
@@ -16,6 +25,7 @@ function App() {
         {dataItems}
       </div>
       <Footer />
+
     </div>
   )
 }
